@@ -11,14 +11,14 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "tse",
-            "aliases": ["TagScript", "tse"],
-            "extensions": [".tse"],
+            "id": "tag",
+            "aliases": ["TagScript", "tag"],
+            "extensions": [".tag"],
             "configuration": "./language-configuration.json"
         }],
         "snippets": [{
-            "language": "tse",
-            "path": "./snippets/tse.code-snippets"
+            "language": "tag",
+            "path": "./snippets/tag.code-snippets"
         }]
     }
 }
